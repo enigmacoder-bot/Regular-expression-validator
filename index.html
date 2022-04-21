@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>REGEX validator</title>
+  </head>
+  <body>
+    <header>
+      <section id="toggle-dark-mode">
+        <div class="toggle-contents-wrapper">
+          <p>Off</p>
+          <div id="dark-mode-switch">
+            <div class="toggle-dot"></div>
+          </div>
+          <p>On</p>
+        </div>
+      </section>
+    </header>
+    <h1>Regex Validator</h1>
+    <ul>
+      <li>Regex: <input type="text" id="regex" size="100" /></li>
+      <li>Test String:<input type="text" id="test" size="100" /></li>
+      <li><button id="button">Test</button></li>
+    </ul>
+    <p>
+      <span id="message">Result will go here.</span>
+    </p>
+  </body>
+</html>

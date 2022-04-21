@@ -1,0 +1,43 @@
+
+
+
+
+
+body{
+    background-color: #000;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 20px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+input{
+    
+margin-left: 30px;
+    width: 200px;
+    height: 30px;
+    display: inline-block;
+}
+button{
+    margin-top:20px;
+    margin-left:8rem;
+    
+cursor: pointer;
+width:8rem;
+height:2rem;
+background-color:bisque;
+border-radius: 1.5rem;
+}
+button:hover{
+    background-color: aqua;
+}
+
+ul{
+    list-style:none;
+    padding-left:0;
+}
+#regex{
+    margin-left: 65px;
+    margin-bottom: 15px;
+}
